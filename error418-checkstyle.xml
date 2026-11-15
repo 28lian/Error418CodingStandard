@@ -23,6 +23,10 @@
     <module name="BeforeExecutionExclusionFileFilter">
         <property name="fileNamePattern" value=".*[\\/].gradle[\\/].*$"/>
     </module>
+          <!-- Pedro Pathing's own tuner procedures. -->
+    <module name="BeforeExecutionExclusionFileFilter">
+        <property name="fileNamePattern" value=".*(ForesightTuner|OctoQuadTuner|PinpointTuner|OTOSTuner|TwoWheelTuner|MecanumTuner|ThreeWheelIMUTuner|ThreeWheelTuner|\\Tests)\.java$"/>
+    </module>
 
     <!-- 120 chars to accommodate PedroPathing builder chains -->
     <module name="LineLength">
